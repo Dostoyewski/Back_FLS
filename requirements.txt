@@ -1,0 +1,15 @@
+dj-database-url==0.5.0
+Django==2.2.1
+django-appconf==1.0.3
+django-compressor==2.3
+django-cors-headers==3.1.1
+django-crispy-forms==1.7.2
+django-environ==0.4.5
+django-phonenumber-field==3.0.1
+django-phonenumbers==1.0.1
+django-registration==3.0.1
+django-registration-redux==2.6
+django-restframework==0.0.1
+django-reversion==3.0.4
+django-tables2==2.1.0
+djangorestframework==3.10.3
