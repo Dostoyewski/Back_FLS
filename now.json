@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "Back_FLS",
+    "builds": [{
+        "src": "barbos/wsgi.py",
+        "use": "@Dostoyewski/Back_FLS",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "barbos/wsgi.py"
+        }
+    ]
+}
